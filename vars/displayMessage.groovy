@@ -9,12 +9,12 @@ def call(String msg){
         stages{
             stage('build'){
                 sh '''
-                    echo "Building the pipeline
+                    echo "Building the pipeline"
                 '''
             }
             stage('Test'){
                 sh '''
-                    echo "Performing Unit test
+                    echo "Performing Unit test"
                 '''
             }
             stage('Deploy'){
